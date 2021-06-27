@@ -1,0 +1,102 @@
+html {
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: #1053EC !important;
+    
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.page-header {
+    padding-top: 3rem;
+}
+
+.gradient {
+    background: rgb(0, 97, 242);
+    background: linear-gradient(
+      135deg,
+      rgba(0, 97, 242, 1) 0%,
+      rgba(105, 0, 199, 1) 100%);
+}
+
+.wave {
+    visibility: none;
+    height: 0;
+}
+
+.feature {
+    margin-top: 100px !important;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    font-size: 20px;
+    padding-left: 2rem;
+    background-image: url(images/check.svg);
+    background-repeat: no-repeat;
+    margin-top: 1.5rem;
+}
+
+.icons {
+    margin-top: 50px !important;
+
+}
+
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    margin-top: 40px;
+    background-color: whitesmoke;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.services {
+    margin-top: 100px !important;
+    background: rgb(0, 97, 242);
+    background: linear-gradient(
+      135deg,
+      rgba(0, 97, 242, 1) 0%,
+      rgba(105, 0, 199, 1) 100%);
+}
+
+.contact {
+    margin-top: 70px !important;
+}
+
+@media screen and (max-width: 458px) {
+
+    .page-header {
+        padding-top: 5rem;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+}
